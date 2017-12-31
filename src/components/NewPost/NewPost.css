@@ -19,7 +19,7 @@
     display: block;
     width: 80%;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 1px solid #363636;
     outline: none;
     font: inherit;
     margin: auto;
@@ -29,14 +29,15 @@
     margin: 5px 0;
     padding: 10px;
     font: inherit;
-    border: 1px solid #fa923f;
+    border: 1px solid #363636;
     background-color: transparent;
-    color: #fa923f;
+    color: #363636;
     cursor: pointer;
 }
 
 .NewPost button:hover,
 .NewPost button:active {
     color: white;
-    background-color: #fa923f;
+    background-color: #4c5ca3;
+    border-color: #4c5ca3;
 }
